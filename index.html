@@ -132,7 +132,7 @@
 
     
     .timer-section {
-      background-color: #00AEEF;
+      background-color: #ebe6e3;
       position: relative;
       overflow: hidden;
       height: 60px;
@@ -224,7 +224,7 @@
           <span class="line1">East Scotland 28</span>
           <span class="line2">Day MegaRider</span>
         </h3>
-        <p>Valid from: 00:00, 3 Oct 2025</p>
+        <p>Valid from: 00:00, 9 Oct 2025</p>
       </div>
 
       <div class="gyro-section" id="gyro-section">
@@ -262,7 +262,7 @@
         minute: '2-digit'
       });
     } else {
-      timerElement.textContent = "Fibre";
+      timerElement.textContent = "Shell";
     }
     showClock = !showClock;
   }
@@ -285,7 +285,7 @@
 
   
   const expireTime = new Date();
-  expireTime.setDate(expireTime.getDate() + 3);
+  expireTime.setDate(expireTime.getDate() + 6);
   expireTime.setHours(expireTime.getHours() + 8);
   expireTime.setMinutes(expireTime.getMinutes() + 19);
   expireTime.setSeconds(expireTime.getSeconds() + 9);
@@ -380,5 +380,6 @@
 </body>
 
 </html>
+
 
 
